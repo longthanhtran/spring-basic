@@ -1,5 +1,6 @@
 package net.tt1.config;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -89,10 +90,9 @@ public class MyDocumentsContext {
 
     private DocumentDAO documentDAO() {
         DocumentRepository documentDAO = new DocumentRepository();
-        documentDAO.setDoc1(getDocumentFromMap("doc1"));
-        documentDAO.setDoc2(getDocumentFromMap("doc2"));
-        documentDAO.setDoc3(getDocumentFromMap("doc3"));
-        documentDAO.setDoc4(getDocumentFromMap("doc4"));
+        ArrayList<Document> docs = null;
+        documents.forEach((k, v) -> docs.add(v));
+        documentDAO.setDocuments(docs);
         return documentDAO;
     }
 

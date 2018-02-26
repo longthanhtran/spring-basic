@@ -23,8 +23,8 @@ public class MyDocumentsTest {
     @Before
     public void setup() {
         context = new ClassPathXmlApplicationContext("META-INF/spring/mydocuments-context.xml");
-//        engine = context.getBean(SearchEngine.class);
-//        webType = context.getBean("webType", Type.class);
+        engine = context.getBean(SearchEngine.class);
+        webType = context.getBean("webType", Type.class);
     }
 
     @Test
