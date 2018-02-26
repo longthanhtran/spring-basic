@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="net.tt1.MyDocumentsWithSpringTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-02-26T06:55:41" hostname="tt1-d12c" time="0.153">
+  <properties/>
+  <testcase name="testWithSpringFindByType" classname="net.tt1.MyDocumentsWithSpringTest" time="0.082"/>
+  <testcase name="testWithSpringListAll" classname="net.tt1.MyDocumentsWithSpringTest" time="0.068"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Feb 26, 2018 1:55:41 PM org.springframework.context.support.ClassPathXmlApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@73cc2f94: startup date [Mon Feb 26 13:55:41 ICT 2018]; root of context hierarchy
+Feb 26, 2018 1:55:41 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [META-INF/spring/mydocuments-context.xml]
+Feb 26, 2018 1:55:41 PM org.springframework.context.support.ClassPathXmlApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6765b504: startup date [Mon Feb 26 13:55:41 ICT 2018]; root of context hierarchy
+Feb 26, 2018 1:55:41 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [META-INF/spring/mydocuments-context.xml]
+]]></system-err>
+</testsuite>
