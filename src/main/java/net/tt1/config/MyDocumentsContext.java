@@ -3,6 +3,8 @@ package net.tt1.config;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -17,6 +19,8 @@ import org.springframework.context.annotation.Scope;
 @Configuration
 public class MyDocumentsContext {
 
+    private static final Logger log = LoggerFactory.getLogger(SearchEngineService.class);
+
     private Map<String, Document> documents = new HashMap<String, Document>();
     private Map<String, Type> types = new HashMap<String, Type>();
 
@@ -30,6 +34,8 @@ public class MyDocumentsContext {
     public SearchEngine engine() {
         SearchEngineService engine = new SearchEngineService();
         engine.setDocumentDAO(documentDAO());
+        if (log.isErrorEnabled())
+            log.debug("SearchEngine created: " + engine);
         return engine;
     }
 
