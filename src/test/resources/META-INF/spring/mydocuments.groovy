@@ -6,7 +6,8 @@ beans {
 
     engine(SearchEngineService) { documentDAO = ref("documentDAO") }
 
-    documentDAO(DocumentRepository) {
+    documentDAO(DocumentRepository) { bean ->
+        bean.scope = "prototype"
         doc1 = ref("doc1")
         doc2 = ref("doc2")
         doc3 = ref("doc3")
@@ -48,7 +49,7 @@ beans {
         desc = "Portable Document Format"
         extension = ".url"
     }
-    
+
     noteType(net.tt1.model.Type){
         name = "NOTE"
         desc = "Text Notes"

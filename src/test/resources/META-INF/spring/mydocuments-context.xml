@@ -4,11 +4,11 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans
     http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-	<bean id="engine" class="net.tt1.service.SearchEngineService">
+	<bean id="engine" class="net.tt1.service.SearchEngineService" scope="prototype">
 		<property name="documentDAO" ref="documentDAO" />
 	</bean>
 
-	<bean id="documentDAO" class="net.tt1.data.DocumentRepository">
+	<bean id="documentDAO" class="net.tt1.data.DocumentRepository" scope="prototype">
 		<property name="doc1" ref="doc1" />
 		<property name="doc2" ref="doc2" />
 		<property name="doc3" ref="doc3" />
@@ -21,7 +21,7 @@
 		<property name="location"
 			value="/Users/felipeg/Documents/Random/Book Template.pdf" />
 	</bean>
-	
+
 	<bean id="doc2" class="net.tt1.model.Document">
 		<property name="name" value="Sample Contract" />
 		<property name="type">
@@ -34,32 +34,32 @@
 		<property name="location"
 			value="/Users/felipeg/Documents/Contracts/Sample Contract.pdf" />
 	</bean>
-	
+
 	<bean id="doc3" class="net.tt1.model.Document">
 		<property name="name" value="Clustering with RabbitMQ" />
 		<property name="type" ref="noteType" />
 		<property name="location"
 			value="/Users/felipeg/Documents/Random/Clustering with RabbitMQ.txt" />
 	</bean>
-	
+
 	<bean id="doc4" class="net.tt1.model.Document">
 		<property name="name" value="Pro Spring Security Book" />
 		<property name="type" ref="webType" />
 		<property name="location" value="http://www.apress.com/9781430248187" />
 	</bean>
-	
+
 	<bean id="webType" class="net.tt1.model.Type">
 		<property name="name" value="WEB" />
 		<property name="desc" value="Web Link" />
 		<property name="extension" value=".url" />
 	</bean>
-	
+
 	<bean id="pdfType" class="net.tt1.model.Type">
 		<property name="name" value="PDF" />
 		<property name="desc" value="Portable Document Format" />
 		<property name="extension" value=".pdf" />
 	</bean>
-	
+
 	<bean id="noteType" class="net.tt1.model.Type">
 		<property name="name" value="NOTE" />
 		<property name="desc" value="Text Notes" />

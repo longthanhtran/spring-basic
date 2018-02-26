@@ -5,6 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;
 
 import net.tt1.data.DocumentDAO;
@@ -13,6 +14,7 @@ import net.tt1.model.Type;
 import net.tt1.service.SearchEngine;
 
 @Service("engine")
+@Scope("prototype")
 public class AnnotatedSearchEngine implements SearchEngine {
 
     @Autowired

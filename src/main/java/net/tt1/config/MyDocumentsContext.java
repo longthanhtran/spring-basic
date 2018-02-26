@@ -12,6 +12,7 @@ import net.tt1.model.Document;
 import net.tt1.model.Type;
 import net.tt1.service.SearchEngine;
 import net.tt1.service.SearchEngineService;
+import org.springframework.context.annotation.Scope;
 
 @Configuration
 public class MyDocumentsContext {
@@ -25,6 +26,7 @@ public class MyDocumentsContext {
     }
 
     @Bean
+    @Scope("prototype")
     public SearchEngine engine() {
         SearchEngineService engine = new SearchEngineService();
         engine.setDocumentDAO(documentDAO());
