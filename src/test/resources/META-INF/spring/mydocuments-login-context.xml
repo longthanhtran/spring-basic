@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="environmentProperties"
+    class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="location" value="classpath:META-INF/data/env_dev.properties" />
+    </bean>
+
+    <bean id="login" class="net.tt1.service.LoginService">
+        <property name="username" value="${user.email}"></property>
+        <property name="password" value="${user.password}"></property>
+    </bean>
+
+</beans>

@@ -17,6 +17,8 @@ import net.tt1.service.SearchEngine;
 import net.tt1.service.SearchEngineService;
 import org.springframework.context.annotation.Scope;
 
+import static java.lang.System.out;
+
 @Configuration
 public class MyDocumentsContext {
 
@@ -31,7 +33,7 @@ public class MyDocumentsContext {
     }
 
     @Bean
-    @Scope("prototype")
+//    @Scope("prototype")
     public SearchEngine engine() {
         SearchEngineService engine = new SearchEngineService();
         engine.setDocumentDAO(documentDAO());
@@ -91,6 +93,8 @@ public class MyDocumentsContext {
     private DocumentDAO documentDAO() {
         DocumentRepository documentDAO = new DocumentRepository();
         ArrayList<Document> docs = null;
+        out.println(documents);
+        documents.forEach((key, value) -> out.println(value.getName() + "-" + value.getType().getName()));
         documents.forEach((k, v) -> docs.add(v));
         documentDAO.setDocuments(docs);
         return documentDAO;

@@ -7,6 +7,7 @@ import static org.junit.Assert.assertTrue;
 import java.util.List;
 
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -41,6 +42,7 @@ public class MyDocumentsBeanConfigurationTest {
     }
 
     @Test
+    @Ignore
     public void testWithBeanConfigurationListAll() {
         List<Document> documents = engine.listAll();
 

@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1d38213-e6a7-4737-947c-60ee454b66f0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/fileHashes.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/fileHashes.lock" />
+    <list default="true" id="e1d38213-e6a7-4737-947c-60ee454b66f0" name="Default" comment="use gradle and .ignorefile">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/tt1/service/Login.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/tt1/service/LoginService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/tt1/views/Menu.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/tt1/views/ResourceLoaderMenu.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/data/dictionary.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/data/dictionary_en.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/data/dictionary_es.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/data/env_dev.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/data/env_qa.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/data/menu.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/net/tt1/MyDocumentsI18nTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/net/tt1/MyDocumentsWithLoginTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/net/tt1/MyDocumentsWithResourceInjectionTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/META-INF/spring/mydocuments-i18n-context.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/META-INF/spring/mydocuments-login-context.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/META-INF/spring/mydocuments-resource-injection-context.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/tt1/config/MyDocumentsContext.java" afterPath="$PROJECT_DIR$/src/main/java/net/tt1/config/MyDocumentsContext.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/net/tt1/MyDocumentsBeanConfigurationTest.java" afterPath="$PROJECT_DIR$/src/test/java/net/tt1/MyDocumentsBeanConfigurationTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/net/tt1/MyDocumentsTest.java" afterPath="$PROJECT_DIR$/src/test/java/net/tt1/MyDocumentsTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -73,37 +90,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TypeDataRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/tt1/model/TypeDataRepository.java">
+      <file leaf-file-name="dictionary.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/data/dictionary.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#337#338#0" expanded="true" />
-                <element signature="e#365#366#0" expanded="true" />
-                <element signature="e#418#419#0" expanded="true" />
-                <element signature="e#452#453#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TypeDataDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/tt1/model/TypeDataDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mydocuments-context.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/META-INF/spring/mydocuments-context.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="35" column="42" lean-forward="false" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
+            <state relative-caret-position="168">
+              <caret line="7" column="51" lean-forward="false" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -112,14 +103,32 @@
       <file leaf-file-name="MyDocumentsContext.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/tt1/config/MyDocumentsContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="88" column="5" lean-forward="true" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
+            <state relative-caret-position="384">
+              <caret line="38" column="45" lean-forward="true" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#737#755#0" expanded="true" />
-                <element signature="e#808#822#0" expanded="true" />
-                <element signature="method#MyDocumentsContext#0;class#MyDocumentsContext#0" expanded="false" />
+                <element signature="e#774#792#0" expanded="true" />
+                <element signature="e#845#859#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchEngineService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/tt1/service/SearchEngineService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="25" column="58" lean-forward="true" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyDocumentsBeanConfigurationTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/net/tt1/MyDocumentsBeanConfigurationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -133,6 +142,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/main/resources/META-INF/data</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -498,12 +512,31 @@
         <option value="$PROJECT_DIR$/src/main/java/net/tt1/model/TypeDataDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/tt1/model/TypeDataRepository.java" />
         <option value="$PROJECT_DIR$/src/test/resources/META-INF/spring/mydocuments-util-context.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/net/tt1/MyDocumentsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/tt1/data/DocumentRepository.java" />
         <option value="$PROJECT_DIR$/src/test/resources/META-INF/spring/mydocuments-context.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/net/tt1/config/MyDocumentsContext.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/data/menu.txt" />
+        <option value="$PROJECT_DIR$/src/test/java/net/tt1/MyDocumentsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/tt1/view/Menu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/tt1/view/ResourceLoaderMenu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/tt1/views/ResourceLoaderMenu.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/META-INF/spring/mydocuments-resource-injection-context.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/net/tt1/MyDocumentsWithResourceInjectionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/data/env_dev.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/data/env_qa.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/net/tt1/service/Login.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/tt1/service/LoginService.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/META-INF/spring/mydocuments-login-context.html" />
+        <option value="$PROJECT_DIR$/src/test/java/net/tt1/MyDocumentsWithLoginTest.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/META-INF/spring/mydocuments-login-context.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/data/dictionary.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/data/dictionary_es.properties" />
+        <option value="$PROJECT_DIR$/src/test/resources/META-INF/spring/mydocuments-i18-context.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/net/tt1/MyDocumentsI18nTest.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/META-INF/spring/mydocuments-i18n-context.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/net/tt1/MyDocumentsBeanConfigurationTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/tt1/config/MyDocumentsContext.java" />
       </list>
     </option>
   </component>
@@ -514,11 +547,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="75" />
-    <option name="y" value="358" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="36" />
+    <option name="y" value="64" />
     <option name="width" value="1606" />
-    <option name="height" value="788" />
+    <option name="height" value="792" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -555,6 +588,63 @@
               <item name="spring-basic" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-basic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-basic" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-basic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-basic" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tt1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-basic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-basic" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tt1" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-basic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-basic" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tt1" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-basic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-basic" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-basic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-basic" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-basic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-basic" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="Resource Bundle 'dictionary'" type="a6c14932:ResourceBundleNode" />
             </path>
             <path>
               <item name="spring-basic" type="b2602c69:ProjectViewProjectNode" />
@@ -605,7 +695,15 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/META-INF/data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/META-INF/data" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -619,7 +717,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MyDocumentsTest.testAll">
+  <component name="RunManager" selected="JUnit.MyDocumentsBeanConfigurationTest.testWithBeanConfigurationByType">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -641,19 +739,44 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="MyDocumentsTest.testAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyDocumentsBeanConfigurationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="net.tt1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="spring-basic" />
+      <module name="spring-basic_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="net.tt1" />
-      <option name="MAIN_CLASS_NAME" value="net.tt1.MyDocumentsTest" />
-      <option name="METHOD_NAME" value="testAll" />
+      <option name="MAIN_CLASS_NAME" value="net.tt1.MyDocumentsBeanConfigurationTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="MyDocumentsBeanConfigurationTest.testWithBeanConfigurationByType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="net.tt1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="spring-basic_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="net.tt1" />
+      <option name="MAIN_CLASS_NAME" value="net.tt1.MyDocumentsBeanConfigurationTest" />
+      <option name="METHOD_NAME" value="testWithBeanConfigurationByType" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -666,20 +789,45 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="MyDocumentsWithSpringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyDocumentsI18nTest.testMenu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="net.tt1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="spring-basic" />
+      <module name="spring-basic_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="net.tt1" />
-      <option name="MAIN_CLASS_NAME" value="net.tt1.MyDocumentsWithSpringTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="net.tt1.MyDocumentsI18nTest" />
+      <option name="METHOD_NAME" value="testMenu" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="MyDocumentsWithLoginTest.testLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="net.tt1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="spring-basic_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="net.tt1" />
+      <option name="MAIN_CLASS_NAME" value="net.tt1.MyDocumentsWithLoginTest" />
+      <option name="METHOD_NAME" value="testLogin" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -700,6 +848,31 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="net.tt1 in spring-basic_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="net.tt1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="spring-basic_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="net.tt1" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -751,14 +924,20 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.MyDocumentsTest.testAll" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.MyDocumentsWithSpringTest" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.MyDocumentsWithLoginTest.testLogin" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.MyDocumentsI18nTest.testMenu" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.net.tt1 in spring-basic_test" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.MyDocumentsBeanConfigurationTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.MyDocumentsBeanConfigurationTest.testWithBeanConfigurationByType" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MyDocumentsWithSpringTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MyDocumentsTest.testAll" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MyDocumentsBeanConfigurationTest.testWithBeanConfigurationByType" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MyDocumentsBeanConfigurationTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.net.tt1 in spring-basic_test" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MyDocumentsI18nTest.testMenu" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.MyDocumentsWithLoginTest.testLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -801,54 +980,70 @@
       <option name="project" value="LOCAL" />
       <updated>1519696427117</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="use gradle and .ignorefile">
+      <created>1519696433669</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1519696433669</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyDocumentsTest_testAll - 2018.02.26 at 17h 45m 54s.xml">
-      <configuration name="MyDocumentsTest.testAll" configurationId="JUnit" />
+    <history-entry file="MyDocumentsBeanConfigurationTest - 2018.02.27 at 15h 32m 51s.xml">
+      <configuration name="MyDocumentsBeanConfigurationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyDocumentsTest_testAll - 2018.02.26 at 17h 48m 10s.xml">
-      <configuration name="MyDocumentsTest.testAll" configurationId="JUnit" />
+    <history-entry file="MyDocumentsBeanConfigurationTest_testWithBeanConfigurationByType - 2018.02.27 at 15h 33m 31s.xml">
+      <configuration name="MyDocumentsBeanConfigurationTest.testWithBeanConfigurationByType" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyDocumentsTest_testAll - 2018.02.26 at 18h 04m 04s.xml">
-      <configuration name="MyDocumentsTest.testAll" configurationId="JUnit" />
+    <history-entry file="MyDocumentsBeanConfigurationTest_testWithBeanConfigurationByType - 2018.02.27 at 15h 34m 11s.xml">
+      <configuration name="MyDocumentsBeanConfigurationTest.testWithBeanConfigurationByType" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyDocumentsTest_testAll - 2018.02.26 at 18h 04m 39s.xml">
-      <configuration name="MyDocumentsTest.testAll" configurationId="JUnit" />
+    <history-entry file="MyDocumentsBeanConfigurationTest_testWithBeanConfigurationByType - 2018.02.27 at 15h 35m 09s.xml">
+      <configuration name="MyDocumentsBeanConfigurationTest.testWithBeanConfigurationByType" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyDocumentsWithSpringTest - 2018.02.26 at 18h 50m 16s.xml">
-      <configuration name="MyDocumentsWithSpringTest" configurationId="JUnit" />
+    <history-entry file="MyDocumentsBeanConfigurationTest_testWithBeanConfigurationByType - 2018.02.27 at 15h 36m 56s.xml">
+      <configuration name="MyDocumentsBeanConfigurationTest.testWithBeanConfigurationByType" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyDocumentsWithSpringTest - 2018.02.26 at 22h 42m 14s.xml">
-      <configuration name="MyDocumentsWithSpringTest" configurationId="JUnit" />
+    <history-entry file="MyDocumentsBeanConfigurationTest_testWithBeanConfigurationByType - 2018.02.27 at 15h 37m 30s.xml">
+      <configuration name="MyDocumentsBeanConfigurationTest.testWithBeanConfigurationByType" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyDocumentsWithSpringTest - 2018.02.27 at 06h 18m 09s.xml">
-      <configuration name="MyDocumentsWithSpringTest" configurationId="JUnit" />
+    <history-entry file="MyDocumentsBeanConfigurationTest_testWithBeanConfigurationByType - 2018.02.27 at 15h 37m 58s.xml">
+      <configuration name="MyDocumentsBeanConfigurationTest.testWithBeanConfigurationByType" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyDocumentsWithSpringTest - 2018.02.27 at 06h 19m 05s.xml">
-      <configuration name="MyDocumentsWithSpringTest" configurationId="JUnit" />
+    <history-entry file="MyDocumentsBeanConfigurationTest_testWithBeanConfigurationByType - 2018.02.27 at 15h 39m 01s.xml">
+      <configuration name="MyDocumentsBeanConfigurationTest.testWithBeanConfigurationByType" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyDocumentsI18nTest_testMenu - 2018.02.27 at 15h 03m 00s.xml">
+      <configuration name="MyDocumentsI18nTest.testMenu" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="net_tt1_in_spring-basic_test - 2018.02.27 at 15h 03m 25s.xml">
+      <configuration name="net.tt1 in spring-basic_test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="75" y="358" width="1606" height="788" extended-state="0" />
+    <frame x="0" y="26" width="1920" height="1143" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296875" sideWeight="0.5077022" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5077022" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33875" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296875" sideWeight="0.49229783" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41608042" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964823" sideWeight="0.49229783" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3145058" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24732906" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991013" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24979185" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24967907" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -858,9 +1053,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -873,7 +1066,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -883,11 +1076,11 @@
         <state relative-caret-position="720">
           <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#337#338#0" expanded="false" />
+            <element signature="e#365#366#0" expanded="false" />
+            <element signature="e#418#419#0" expanded="false" />
+            <element signature="e#452#453#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -913,9 +1106,9 @@
         <state relative-caret-position="1848">
           <caret line="92" column="5" lean-forward="true" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#737#755#0" expanded="true" />
-            <element signature="e#808#822#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#774#792#0" expanded="true" />
+            <element signature="e#845#859#0" expanded="true" />
             <element signature="method#MyDocumentsContext#0;class#MyDocumentsContext#0" expanded="false" />
           </folding>
         </state>
@@ -965,18 +1158,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/tt1/service/SearchEngineService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1024#1025#0" expanded="false" />
-            <element signature="e#1058#1059#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/tt1/model/Type.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
@@ -989,22 +1170,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="713">
           <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/tt1/service/SearchEngine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/net/tt1/MyDocumentsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -1039,20 +1204,12 @@
         <state relative-caret-position="180">
           <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#337#338#0" expanded="false" />
+            <element signature="e#365#366#0" expanded="false" />
+            <element signature="e#418#419#0" expanded="false" />
+            <element signature="e#452#453#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/META-INF/spring/mydocuments-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="35" column="42" lean-forward="false" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1060,14 +1217,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1080,15 +1229,212 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/tt1/config/MyDocumentsContext.java">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="88" column="5" lean-forward="true" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
+        <state relative-caret-position="344">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/net/tt1/MyDocumentsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="60" column="59" lean-forward="false" selection-start-line="60" selection-start-column="59" selection-end-line="60" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#testFindByType#0;class#MyDocumentsTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/data/menu.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/META-INF/spring/mydocuments-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="35" column="42" lean-forward="false" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/tt1/views/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#737#755#0" expanded="true" />
-            <element signature="e#808#822#0" expanded="true" />
-            <element signature="method#MyDocumentsContext#0;class#MyDocumentsContext#0" expanded="false" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/tt1/views/ResourceLoaderMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-192">
+          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/META-INF/spring/mydocuments-resource-injection-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/net/tt1/MyDocumentsWithResourceInjectionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-185">
+          <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/data/env_dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/data/env_qa.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/tt1/service/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="59" lean-forward="false" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/net/tt1/MyDocumentsWithLoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/META-INF/spring/mydocuments-login-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="58" lean-forward="true" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/tt1/service/LoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-118">
+          <caret line="8" column="52" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="52" />
+          <folding>
+            <element signature="method#isAuthorized#0;class#LoginService#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/data/dictionary_es.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="54" lean-forward="false" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/data/dictionary_en.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/net/tt1/MyDocumentsI18nTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="30" column="43" lean-forward="true" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/META-INF/spring/mydocuments-i18n-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="64" lean-forward="false" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/data/dictionary.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="51" lean-forward="false" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/net/tt1/MyDocumentsBeanConfigurationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/tt1/service/SearchEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/tt1/service/SearchEngineService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="25" column="58" lean-forward="true" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/tt1/config/MyDocumentsContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="38" column="45" lean-forward="true" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
+          <folding>
+            <element signature="e#774#792#0" expanded="true" />
+            <element signature="e#845#859#0" expanded="true" />
           </folding>
         </state>
       </provider>
