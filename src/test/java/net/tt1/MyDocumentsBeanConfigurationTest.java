@@ -42,7 +42,6 @@ public class MyDocumentsBeanConfigurationTest {
     }
 
     @Test
-    @Ignore
     public void testWithBeanConfigurationListAll() {
         List<Document> documents = engine.listAll();
 

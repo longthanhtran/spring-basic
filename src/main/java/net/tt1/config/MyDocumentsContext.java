@@ -2,6 +2,7 @@ package net.tt1.config;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
 
 import org.slf4j.Logger;
@@ -33,12 +34,15 @@ public class MyDocumentsContext {
     }
 
     @Bean
-//    @Scope("prototype")
     public SearchEngine engine() {
         SearchEngineService engine = new SearchEngineService();
+        System.out.println("SearchEngine created: " + engine);
+        System.out.println(">> Origin documentDAO: " + documentDAO().getAll());
         engine.setDocumentDAO(documentDAO());
         if (log.isErrorEnabled())
             log.debug("SearchEngine created: " + engine);
+        System.out.println(">> The engine: " + engine);
+        System.out.println(">> The documentDAO: " + engine.getDocumentDAO());
         return engine;
     }
 
@@ -92,11 +96,15 @@ public class MyDocumentsContext {
 
     private DocumentDAO documentDAO() {
         DocumentRepository documentDAO = new DocumentRepository();
-        ArrayList<Document> docs = null;
-        out.println(documents);
-        documents.forEach((key, value) -> out.println(value.getName() + "-" + value.getType().getName()));
-        documents.forEach((k, v) -> docs.add(v));
+        ArrayList<Document> docs = new ArrayList<>(); // Be very careful by assigning null as initialization
+        try {
+            documents.forEach((k, v) -> docs.add(v));
+        } catch (Exception e) {
+            out.println(e.getStackTrace());
+        }
+//        out.println(">> After docs created: " + docs);
         documentDAO.setDocuments(docs);
+//        out.println(">> Inside documentDAO: " + documentDAO.getDocuments());
         return documentDAO;
     }
 

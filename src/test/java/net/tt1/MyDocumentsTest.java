@@ -76,7 +76,6 @@ public class MyDocumentsTest {
     }
 
     @Test
-    @Ignore
     public void testAll() {
         engine = context.getBean(SearchEngine.class);
         webType = context.getBean("webType", Type.class);

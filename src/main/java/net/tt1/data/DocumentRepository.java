@@ -22,6 +22,7 @@ public class DocumentRepository implements DocumentDAO {
     public Document[] getAll() {
         if (log.isDebugEnabled())
             log.debug("Start <getAll> Params: ");
+        System.out.println(">> Documents: " + documents);
         Document[] result = documents.toArray(new Document[documents.size()]);
 
         if (log.isDebugEnabled())

@@ -20,11 +20,13 @@ public class SearchEngineService implements SearchEngine {
     public SearchEngineService() {
         if (log.isDebugEnabled())
             log.debug("ServiceEngineService created: " + this);
+        System.out.println(">> SearchEngineService created " + this);
     }
 
     public List<Document> findByType(Type documentType) {
         List<Document> result = new ArrayList<Document>();
-
+        System.out.println(">> documentType: " + documentType);
+        System.out.println(">> documentDAO: " + documentDAO.getAll()[0]);
         for (Document doc : listAll()) {
             if (doc.getType().getName().equals(documentType.getName()))
                 result.add(doc);
