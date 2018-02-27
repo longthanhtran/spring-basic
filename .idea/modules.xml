@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/spring-basic.iml" filepath="$PROJECT_DIR$/spring-basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-basic_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-basic_main.iml" group="spring-basic" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-basic_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-basic_test.iml" group="spring-basic" />
     </modules>
   </component>
 </project>

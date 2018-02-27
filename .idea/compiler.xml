@@ -11,6 +11,8 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring-basic" target="1.8" />
+      <module name="spring-basic_main" target="1.8" />
+      <module name="spring-basic_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
