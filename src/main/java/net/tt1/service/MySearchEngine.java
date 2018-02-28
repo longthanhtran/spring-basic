@@ -20,6 +20,11 @@ public class MySearchEngine implements SearchEngine {
         return storage();
     }
 
+    @Override
+    public List<Document> findByLocation(String location) {
+        throw new UnsupportedOperationException("findByLocation not yet implemented");
+    }
+
     private List<Document> storage() {
         List<Document> result = new ArrayList<Document>();
 

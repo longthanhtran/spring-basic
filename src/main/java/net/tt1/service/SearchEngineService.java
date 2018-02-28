@@ -38,6 +38,11 @@ public class SearchEngineService implements SearchEngine {
         return Arrays.asList(documentDAO.getAll());
     }
 
+    @Override
+    public List<Document> findByLocation(String location) {
+        throw new UnsupportedOperationException("findByLocation not yet implemented");
+    }
+
     public DocumentDAO getDocumentDAO() {
         return documentDAO;
     }
