@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1d38213-e6a7-4737-947c-60ee454b66f0" name="Default" comment="use gradle and .ignorefile">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_test_4_0_5_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/tt1/service/FileSearchEngineService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/net/tt1/CustomProfile.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/net/tt1/MyDocumentsMoreAnnotationsTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/net/tt1/MyDocumentsRunWithTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/net/tt1/MyDocumentsWithCustomProfilesTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/net/tt1/MyDocumentsWithProfileTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/META-INF/spring/mydocuments-custom-profiles-context.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/META-INF/spring/mydocuments-profiles-context.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/spring-basic_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/spring-basic_test.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -438,7 +427,6 @@
         <option value="$PROJECT_DIR$/src/main/java/net/tt1/model/TypeDataRepository.java" />
         <option value="$PROJECT_DIR$/src/test/resources/META-INF/spring/mydocuments-util-context.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/META-INF/spring/mydocuments-context.xml" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/data/menu.txt" />
         <option value="$PROJECT_DIR$/src/main/java/net/tt1/view/Menu.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/tt1/view/ResourceLoaderMenu.java" />
@@ -470,6 +458,7 @@
         <option value="$PROJECT_DIR$/src/test/resources/META-INF/spring/mydocuments-profiles-context.xml" />
         <option value="$PROJECT_DIR$/src/test/java/net/tt1/MyDocumentsWithCustomProfilesTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/net/tt1/MyDocumentsMoreAnnotationsTest.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -1253,13 +1242,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/tt1/service/SearchEngineService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
@@ -1385,6 +1367,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="40" column="7" lean-forward="false" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
