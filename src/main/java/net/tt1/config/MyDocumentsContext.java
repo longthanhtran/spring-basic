@@ -36,13 +36,10 @@ public class MyDocumentsContext {
     @Bean
     public SearchEngine engine() {
         SearchEngineService engine = new SearchEngineService();
-        System.out.println("SearchEngine created: " + engine);
-        System.out.println(">> Origin documentDAO: " + documentDAO().getAll());
         engine.setDocumentDAO(documentDAO());
         if (log.isErrorEnabled())
             log.debug("SearchEngine created: " + engine);
-        System.out.println(">> The engine: " + engine);
-        System.out.println(">> The documentDAO: " + engine.getDocumentDAO());
+
         return engine;
     }
 
@@ -97,14 +94,11 @@ public class MyDocumentsContext {
     private DocumentDAO documentDAO() {
         DocumentRepository documentDAO = new DocumentRepository();
         ArrayList<Document> docs = new ArrayList<>(); // Be very careful by assigning null as initialization
-        try {
-            documents.forEach((k, v) -> docs.add(v));
-        } catch (Exception e) {
-            out.println(e.getStackTrace());
-        }
-//        out.println(">> After docs created: " + docs);
+
+        documents.forEach((k, v) -> docs.add(v));
+
         documentDAO.setDocuments(docs);
-//        out.println(">> Inside documentDAO: " + documentDAO.getDocuments());
+
         return documentDAO;
     }
 

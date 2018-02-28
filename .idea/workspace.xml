@@ -2,45 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1d38213-e6a7-4737-947c-60ee454b66f0" name="Default" comment="use gradle and .ignorefile">
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/fileChanges/last-build.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/fileContent/annotation-processors.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/fileContent/fileContent.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/fileHashes.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/fileHashes.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/resourceHashesCache.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/taskHistory/taskHistory.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/taskHistory/taskHistory.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.gradle/vcsWorkingDirs/gc.properties" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/tt1/annotated/data/AnnotatedDocumentRepository.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/tt1/annotated/service/AnnotatedSearchEngine.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/tt1/config/MyDocumentsContext.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/tt1/data/DocumentDAO.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/tt1/data/DocumentRepository.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/tt1/model/Document.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/tt1/model/Type.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/tt1/service/MySearchEngine.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/tt1/service/SearchEngine.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/tt1/service/SearchEngineService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/net/tt1/MyDocumentsBeanConfigurationTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/net/tt1/MyDocumentsBeanDefinitionReaderTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/net/tt1/MyDocumentsTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/net/tt1/MyDocumentsWithSpringTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/resources/test/META-INF/spring/mydocuments-annotations-context.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/resources/test/META-INF/spring/mydocuments-context.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/resources/test/META-INF/spring/mydocuments.groovy" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/net.tt1.MyDocumentsBeanConfigurationTest.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/net.tt1.MyDocumentsBeanDefinitionReaderTest.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/net.tt1.MyDocumentsTest.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/net.tt1.MyDocumentsWithSpringTest.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/net.tt1.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-net.tt1.MyDocumentsBeanConfigurationTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-net.tt1.MyDocumentsBeanDefinitionReaderTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-net.tt1.MyDocumentsTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-net.tt1.MyDocumentsWithSpringTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/tt1/config/MyDocumentsContext.java" afterPath="$PROJECT_DIR$/src/main/java/net/tt1/config/MyDocumentsContext.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/tt1/data/DocumentRepository.java" afterPath="$PROJECT_DIR$/src/main/java/net/tt1/data/DocumentRepository.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/tt1/service/SearchEngineService.java" afterPath="$PROJECT_DIR$/src/main/java/net/tt1/service/SearchEngineService.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/net/tt1/MyDocumentsBeanConfigurationTest.java" afterPath="$PROJECT_DIR$/src/test/java/net/tt1/MyDocumentsBeanConfigurationTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/net/tt1/MyDocumentsTest.java" afterPath="$PROJECT_DIR$/src/test/java/net/tt1/MyDocumentsTest.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/tt1/annotated/data/AnnotatedDocumentRepository.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/tt1/annotated/service/AnnotatedSearchEngine.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/tt1/config/MyDocumentsContext.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/tt1/data/DocumentDAO.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/tt1/data/DocumentRepository.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/tt1/model/Document.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/tt1/model/Type.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/tt1/model/TypeDataDAO.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/tt1/model/TypeDataRepository.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/tt1/service/MySearchEngine.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/tt1/service/SearchEngine.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/tt1/service/SearchEngineService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/net/tt1/MyDocumentsBeanConfigurationTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/net/tt1/MyDocumentsBeanDefinitionReaderTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/net/tt1/MyDocumentsTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/net/tt1/MyDocumentsWithSpringTest.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -112,36 +107,9 @@
       <file leaf-file-name="MyDocumentsContext.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/tt1/config/MyDocumentsContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="101" column="30" lean-forward="false" selection-start-line="101" selection-start-column="30" selection-end-line="101" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#801#819#0" expanded="true" />
-                <element signature="e#872#886#0" expanded="true" />
-                <element signature="e#927#928#0" expanded="true" />
-                <element signature="e#971#972#0" expanded="true" />
-                <element signature="method#MyDocumentsContext#0;class#MyDocumentsContext#0" expanded="false" />
-                <element signature="e#3687#3688#0" expanded="true" />
-                <element signature="e#3736#3737#0" expanded="true" />
-                <element signature="e#3787#3788#0" expanded="true" />
-                <element signature="e#3828#3829#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SearchEngineService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/tt1/service/SearchEngineService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="28" column="70" lean-forward="false" selection-start-line="28" selection-start-column="70" selection-end-line="28" selection-end-column="70" />
-              <folding>
-                <element signature="e#755#765#0" expanded="true" />
-                <element signature="e#1130#1131#0" expanded="true" />
-                <element signature="e#1188#1189#0" expanded="true" />
-                <element signature="e#1231#1232#0" expanded="true" />
-                <element signature="e#1265#1266#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="290">
+              <caret line="37" column="63" lean-forward="false" selection-start-line="37" selection-start-column="63" selection-end-line="37" selection-end-column="63" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -149,8 +117,8 @@
       <file leaf-file-name="DocumentRepository.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/tt1/data/DocumentRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="432">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
                 <element signature="e#460#461#0" expanded="true" />
                 <element signature="e#502#503#0" expanded="true" />
@@ -159,24 +127,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyDocumentsBeanConfigurationTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MyDocumentsBeanConfigurationTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/net/tt1/MyDocumentsBeanConfigurationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state relative-caret-position="512">
+              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyDocumentsTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyDocumentsTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/net/tt1/MyDocumentsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
+            <state relative-caret-position="-299">
               <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding>
                 <element signature="method#testFindByType#0;class#MyDocumentsTest#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchEngineService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/tt1/service/SearchEngineService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-384">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -208,12 +186,12 @@
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$" value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-bin/3p92xsbhik5vmig8i90n16yxc/gradle-4.0" />
+        <entry key="$PROJECT_DIR$" value="$USER_HOME$/.local/gradle-4.5.1" />
       </map>
     </option>
     <option name="myGradleVersions">
       <map>
-        <entry key="$PROJECT_DIR$" value="4.0" />
+        <entry key="$PROJECT_DIR$" value="4.5.1" />
       </map>
     </option>
     <option name="availableProjects">
@@ -436,7 +414,7 @@
     <option name="modificationStamps">
       <map>
         <entry key="$USER_HOME$/.gradle/gradle.properties" value="1645988956" />
-        <entry key="$PROJECT_DIR$" value="2985738351000" />
+        <entry key="$PROJECT_DIR$" value="1519778710000" />
         <entry key="$PROJECT_DIR$/build.gradle" value="4038828674" />
       </map>
     </option>
@@ -459,6 +437,80 @@
               <option name="name" value="spring-basic" />
               <option name="projectBuildClasspath">
                 <list>
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/ant-1.9.9.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/gradle-resources-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/gradle-wrapper-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/gradle-docs-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/gradle-launcher-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/gradle-kotlin-dsl-tooling-models-0.14.2.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/groovy-all-2.4.12.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/gradle-core-api-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/gradle-process-services-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/gradle-logging-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/gradle-build-cache-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/ant-launcher-1.9.9.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/gradle-model-core-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/gradle-kotlin-dsl-tooling-builders-0.14.2.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/gradle-native-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/gradle-cli-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/gradle-jvm-services-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/gradle-build-option-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/gradle-kotlin-dsl-0.14.2.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/gradle-model-groovy-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/gradle-base-services-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/gradle-tooling-api-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/gradle-runtime-api-info-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/gradle-persistent-cache-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/gradle-core-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/gradle-base-services-groovy-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/gradle-messaging-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/gradle-installation-beacon-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/plugins/gradle-signing-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/plugins/gradle-resources-http-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/plugins/gradle-platform-jvm-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/plugins/gradle-code-quality-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/plugins/gradle-ide-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/plugins/gradle-maven-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/plugins/gradle-plugins-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/plugins/gradle-language-scala-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/plugins/gradle-dependency-management-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/plugins/gradle-platform-base-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/plugins/gradle-platform-play-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/plugins/gradle-language-java-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/plugins/gradle-version-control-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/plugins/gradle-diagnostics-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/plugins/gradle-platform-native-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/plugins/gradle-reporting-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/plugins/gradle-announce-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/plugins/gradle-build-init-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/plugins/gradle-publish-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/plugins/gradle-language-jvm-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/plugins/gradle-jacoco-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/plugins/gradle-testing-base-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/plugins/gradle-plugin-development-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/plugins/gradle-ide-native-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/plugins/gradle-osgi-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/plugins/gradle-scala-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/plugins/gradle-tooling-api-builders-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/plugins/gradle-antlr-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/plugins/gradle-ear-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/plugins/gradle-build-cache-http-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/plugins/gradle-language-native-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/plugins/gradle-testing-native-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/plugins/gradle-javascript-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/plugins/gradle-ivy-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/plugins/gradle-resources-s3-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/plugins/gradle-resources-gcs-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/plugins/gradle-build-comparison-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/plugins/gradle-workers-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/plugins/gradle-plugin-use-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/plugins/gradle-ide-play-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/plugins/gradle-language-groovy-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/plugins/gradle-testing-jvm-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/plugins/gradle-composite-builds-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/plugins/gradle-resources-sftp-4.5.1.jar" />
+                  <option value="$USER_HOME$/.local/gradle-4.5.1/lib/plugins/gradle-test-kit-4.5.1.jar" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
                 </list>
@@ -507,11 +559,11 @@
         <option value="$PROJECT_DIR$/src/test/java/net/tt1/MyDocumentsI18nTest.java" />
         <option value="$PROJECT_DIR$/src/test/resources/META-INF/spring/mydocuments-i18n-context.xml" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/net/tt1/data/DocumentRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/tt1/service/SearchEngineService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/tt1/config/MyDocumentsContext.java" />
         <option value="$PROJECT_DIR$/src/test/java/net/tt1/MyDocumentsBeanConfigurationTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/net/tt1/MyDocumentsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/tt1/config/MyDocumentsContext.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/tt1/service/SearchEngineService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/tt1/data/DocumentRepository.java" />
       </list>
     </option>
   </component>
@@ -523,10 +575,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="116" />
-    <option name="y" value="167" />
-    <option name="width" value="1394" />
-    <option name="height" value="868" />
+    <option name="x" value="36" />
+    <option name="y" value="64" />
+    <option name="width" value="1685" />
+    <option name="height" value="808" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -544,6 +596,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -587,10 +642,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -894,15 +946,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyDocumentsBeanConfigurationTest - 2018.02.27 at 21h 47m 36s.xml">
-      <configuration name="MyDocumentsBeanConfigurationTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyDocumentsBeanConfigurationTest - 2018.02.27 at 21h 47m 57s.xml">
-      <configuration name="MyDocumentsBeanConfigurationTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyDocumentsBeanConfigurationTest - 2018.02.27 at 21h 48m 39s.xml">
-      <configuration name="MyDocumentsBeanConfigurationTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MyDocumentsBeanConfigurationTest - 2018.02.27 at 21h 49m 32s.xml">
       <configuration name="MyDocumentsBeanConfigurationTest" configurationId="JUnit" />
     </history-entry>
@@ -921,13 +964,21 @@
     <history-entry file="MyDocumentsTest - 2018.02.27 at 22h 04m 46s.xml">
       <configuration name="MyDocumentsTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MyDocumentsTest - 2018.02.28 at 07h 51m 11s.xml">
+      <configuration name="MyDocumentsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyDocumentsTest - 2018.02.28 at 07h 51m 42s.xml">
+      <configuration name="MyDocumentsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyDocumentsTest - 2018.02.28 at 07h 52m 52s.xml">
+      <configuration name="MyDocumentsTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="net_tt1_in_spring-basic_test - 2018.02.27 at 22h 04m 22s.xml">
       <configuration name="net.tt1 in spring-basic_test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="116" y="167" width="1394" height="868" extended-state="0" />
-    <editor active="true" />
+    <frame x="36" y="64" width="1685" height="808" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -937,15 +988,16 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4152652" sideWeight="0.50676817" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4152652" sideWeight="0.4932318" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4151515" sideWeight="0.4932318" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964823" sideWeight="0.49229783" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32858992" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3272727" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15902367" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22052535" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991013" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24967907" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39974126" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -954,7 +1006,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -969,38 +1020,71 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/data/dictionary.properties">
-      <provider editor-type-id="ResourceBundle">
-        <state />
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/tt1/config/MyDocumentsContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1272">
+          <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+          <folding />
+        </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/tt1/service/SearchEngineService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="28" column="70" lean-forward="false" selection-start-line="28" selection-start-column="70" selection-end-line="28" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/net/tt1/MyDocumentsBeanConfigurationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/tt1/data/DocumentRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/net/tt1/MyDocumentsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding>
+            <element signature="method#testFindByType#0;class#MyDocumentsTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/data/dictionary.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/tt1/config/MyDocumentsContext.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1102">
           <caret line="38" column="45" lean-forward="true" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#801#819#0" expanded="true" />
-            <element signature="e#872#886#0" expanded="true" />
-            <element signature="e#927#928#0" expanded="true" />
-            <element signature="e#971#972#0" expanded="true" />
-            <element signature="method#MyDocumentsContext#0;class#MyDocumentsContext#0" expanded="false" />
-            <element signature="e#3687#3688#0" expanded="true" />
-            <element signature="e#3736#3737#0" expanded="true" />
-            <element signature="e#3787#3788#0" expanded="true" />
-            <element signature="e#3828#3829#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1008,13 +1092,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="25" column="58" lean-forward="true" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
-          <folding>
-            <element signature="e#755#765#0" expanded="true" />
-            <element signature="e#1130#1131#0" expanded="true" />
-            <element signature="e#1188#1189#0" expanded="true" />
-            <element signature="e#1231#1232#0" expanded="true" />
-            <element signature="e#1265#1266#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1037,7 +1115,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1053,18 +1134,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1848">
           <caret line="92" column="5" lean-forward="true" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#801#819#0" expanded="true" />
-            <element signature="e#872#886#0" expanded="true" />
-            <element signature="e#927#928#0" expanded="true" />
-            <element signature="e#971#972#0" expanded="true" />
-            <element signature="method#MyDocumentsContext#0;class#MyDocumentsContext#0" expanded="false" />
-            <element signature="e#3687#3688#0" expanded="true" />
-            <element signature="e#3736#3737#0" expanded="true" />
-            <element signature="e#3787#3788#0" expanded="true" />
-            <element signature="e#3828#3829#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1107,7 +1177,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1247">
           <caret line="52" column="27" lean-forward="false" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1127,7 +1196,6 @@
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/src.zip!/java/util/function/BiConsumer.java" />
-    <entry file="file://$PROJECT_DIR$/.gitignore" />
     <entry file="file://$PROJECT_DIR$/src/main/java/net/tt1/model/TypeDataDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -1183,7 +1251,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="79" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1191,7 +1258,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-185">
           <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1220,9 +1286,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
           <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1230,7 +1293,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="11" column="58" lean-forward="true" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1242,34 +1304,29 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/data/dictionary_es.properties">
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="6" column="54" lean-forward="false" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/data/dictionary_en.properties">
       <provider editor-type-id="ResourceBundle">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/data/dictionary_en.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/net/tt1/MyDocumentsI18nTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
           <caret line="30" column="43" lean-forward="true" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1277,19 +1334,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="7" column="64" lean-forward="false" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/data/dictionary.properties">
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="7" column="51" lean-forward="false" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
-          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/tt1/service/SearchEngine.java">
@@ -1303,7 +1358,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1311,14 +1365,47 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
           <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/net/tt1/MyDocumentsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-299">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding>
+            <element signature="method#testFindByType#0;class#MyDocumentsTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/tt1/service/SearchEngineService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-384">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/tt1/config/MyDocumentsContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="37" column="63" lean-forward="false" selection-start-line="37" selection-start-column="63" selection-end-line="37" selection-end-column="63" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/tt1/data/DocumentRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        <state relative-caret-position="432">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <element signature="e#460#461#0" expanded="true" />
             <element signature="e#502#503#0" expanded="true" />
@@ -1326,54 +1413,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/tt1/service/SearchEngineService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="28" column="70" lean-forward="false" selection-start-line="28" selection-start-column="70" selection-end-line="28" selection-end-column="70" />
-          <folding>
-            <element signature="e#755#765#0" expanded="true" />
-            <element signature="e#1130#1131#0" expanded="true" />
-            <element signature="e#1188#1189#0" expanded="true" />
-            <element signature="e#1231#1232#0" expanded="true" />
-            <element signature="e#1265#1266#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/tt1/config/MyDocumentsContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="101" column="30" lean-forward="false" selection-start-line="101" selection-start-column="30" selection-end-line="101" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#801#819#0" expanded="true" />
-            <element signature="e#872#886#0" expanded="true" />
-            <element signature="e#927#928#0" expanded="true" />
-            <element signature="e#971#972#0" expanded="true" />
-            <element signature="method#MyDocumentsContext#0;class#MyDocumentsContext#0" expanded="false" />
-            <element signature="e#3687#3688#0" expanded="true" />
-            <element signature="e#3736#3737#0" expanded="true" />
-            <element signature="e#3787#3788#0" expanded="true" />
-            <element signature="e#3828#3829#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/net/tt1/MyDocumentsBeanConfigurationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state relative-caret-position="512">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/net/tt1/MyDocumentsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding>
-            <element signature="method#testFindByType#0;class#MyDocumentsTest#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
