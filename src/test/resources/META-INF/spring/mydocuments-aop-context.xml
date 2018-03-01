@@ -6,6 +6,10 @@
 
 	<!--AOP-->
 	<bean id="beforeLogging" class="net.tt1.aop.BeforeLoggingModule" />
+	<bean id="afterLogging" class="net.tt1.aop.AfterLoggingModule" />
+	<bean id="aroundLogging" class="net.tt1.aop.AroundLoggingModule" />
+	<bean id="throwsLogging" class="net.tt1.aop.ThrowsLoggingModule" />
+	<bean id="caching" class="net.tt1.aop.CachingModule" />
 
 	<!--AOP Proxy-->
 	<bean id="engineProxy" class="org.springframework.aop.framework.ProxyFactoryBean">
@@ -14,6 +18,10 @@
 		<property name="interceptorNames">
 			<list>
 				<value>beforeLogging</value>
+				<value>afterLogging</value>
+				<value>aroundLogging</value>
+				<value>throwsLogging</value>
+				<value>caching</value>
 			</list>
 		</property>
 	</bean>

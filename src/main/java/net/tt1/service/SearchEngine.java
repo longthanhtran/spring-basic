@@ -7,9 +7,9 @@ import net.tt1.model.Type;
 
 public interface SearchEngine {
 
-    public List<Document> findByType(Type documentType);
+    List<Document> findByType(Type documentType);
 
-    public List<Document> listAll();
+    List<Document> listAll();
 
-    public List<Document> findByLocation(String location);
+    List<Document> findByLocation(String location);
 }

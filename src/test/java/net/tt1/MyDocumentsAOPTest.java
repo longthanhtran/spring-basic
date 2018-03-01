@@ -2,6 +2,7 @@ package net.tt1;
 
 import net.tt1.model.Document;
 import net.tt1.model.Type;
+
 import net.tt1.service.SearchEngine;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -49,5 +50,20 @@ public class MyDocumentsAOPTest {
         } catch (Exception e) {
             log.error("" + e.getStackTrace());
         }
+    }
+
+    @Test
+    public void testUsingSpringAOPCaching() {
+//        TODO Check debug mode with JUnit
+        log.debug("Testing  Caching Module...");
+
+        List<Document> documents = engineProxy.findByType(webType);
+        assertNotNull(documents);
+        int count = documents.size();
+
+        log.debug("It should be now cached!");
+        documents = engineProxy.findByType(webType);
+        assertNotNull(documents);
+        assertEquals(count, documents.size());
     }
 }

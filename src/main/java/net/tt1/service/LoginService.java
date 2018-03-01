@@ -7,9 +7,7 @@ public class LoginService implements Login {
 
     @Override
     public boolean isAuthorized(String email, String pass) {
-        if (username.equals(email) && password.equals(pass))
-            return true;
-        return false;
+        return username.equals(email) && password.equals(pass);
     }
 
     public String getUsername() {

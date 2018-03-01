@@ -4,6 +4,6 @@ import net.tt1.model.Document;
 
 public interface DocumentDAO {
 
-    public Document[] getAll();
+    Document[] getAll();
 
 }

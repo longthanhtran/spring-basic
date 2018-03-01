@@ -33,7 +33,7 @@ public class MyDocumentsMoreAnnotationsTest {
 
     @Timed(millis = 2000)
     @Test
-    public void testUsingSpringTimedAnnotationTest() throws InterruptedException {
+    public void testUsingSpringTimedAnnotationTest() {
         log.debug("Using Spring Test fixtures: ");
 
         List<Document> documents = engine.findByType(webType);

@@ -11,7 +11,7 @@ public class BeforeLoggingModule implements MethodBeforeAdvice {
     private static final Logger log = LoggerFactory.getLogger(BeforeLoggingModule.class);
 
     @Override
-    public void before(Method method, Object[] args, Object target) throws Throwable {
+    public void before(Method method, Object[] args, Object target) {
         if (log.isDebugEnabled()) {
             log.debug("@@@@(BEFORE) Method called: " + method.getName());
             if (args.length == 0)
