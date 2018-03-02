@@ -65,5 +65,10 @@ public class MyDocumentsAOPTest {
         documents = engineProxy.findByType(webType);
         assertNotNull(documents);
         assertEquals(count, documents.size());
+
+        log.debug("It should be now cached!");
+        documents = engineProxy.findByType(webType);
+        assertNotNull(documents);
+        assertEquals(count, documents.size());
     }
 }

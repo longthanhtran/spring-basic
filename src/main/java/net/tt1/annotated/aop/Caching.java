@@ -21,8 +21,8 @@ public class Caching {
 
     @Around("execution(* net.net.service.SearchEngine.*(..))")
     public Object caching(ProceedingJoinPoint pjp) throws Throwable {
-        Object result = null;
-        Type documentType = null;
+        Object result;
+        Type documentType;
 
         log.debug("@@@(Caching) review if this call is cacheable..");
 

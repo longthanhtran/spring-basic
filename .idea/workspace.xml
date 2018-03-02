@@ -2,41 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1d38213-e6a7-4737-947c-60ee454b66f0" name="Default" comment="use gradle and .ignorefile">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_aspectj_aspectjrt_1_5_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_aspectj_aspectjweaver_1_5_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_5_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_5_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/tt1/annotated/aop/Caching.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/tt1/aop/AfterLoggingModule.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/tt1/aop/AroundLoggingModule.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/tt1/aop/CachingModule.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/tt1/aop/ThrowsLoggingModule.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_test_4_0_5_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/spring-basic_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/spring-basic_main.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/spring-basic_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/spring-basic_test.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/out/test/resources/META-INF/spring/mydocuments-aop-context.xml" afterPath="$PROJECT_DIR$/out/test/resources/META-INF/spring/mydocuments-aop-context.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/tt1/aop/BeforeLoggingModule.java" afterPath="$PROJECT_DIR$/src/main/java/net/tt1/aop/BeforeLoggingModule.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/tt1/data/DocumentDAO.java" afterPath="$PROJECT_DIR$/src/main/java/net/tt1/data/DocumentDAO.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/tt1/model/TypeDataDAO.java" afterPath="$PROJECT_DIR$/src/main/java/net/tt1/model/TypeDataDAO.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/tt1/service/Login.java" afterPath="$PROJECT_DIR$/src/main/java/net/tt1/service/Login.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/tt1/service/LoginService.java" afterPath="$PROJECT_DIR$/src/main/java/net/tt1/service/LoginService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/tt1/service/SearchEngine.java" afterPath="$PROJECT_DIR$/src/main/java/net/tt1/service/SearchEngine.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/tt1/annotated/aop/Caching.java" afterPath="$PROJECT_DIR$/src/main/java/net/tt1/annotated/aop/Caching.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/net/tt1/MyDocumentsAOPTest.java" afterPath="$PROJECT_DIR$/src/test/java/net/tt1/MyDocumentsAOPTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/net/tt1/MyDocumentsMoreAnnotationsTest.java" afterPath="$PROJECT_DIR$/src/test/java/net/tt1/MyDocumentsMoreAnnotationsTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/META-INF/spring/mydocuments-aop-context.xml" afterPath="$PROJECT_DIR$/src/test/resources/META-INF/spring/mydocuments-aop-context.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/data/dictionary.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/data/dictionary_en.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/data/dictionary_es.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/data/env_dev.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/data/env_qa.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/data/menu.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/spring/mydocuments-annotations-context.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/spring/mydocuments-context.xml" afterPath="$PROJECT_DIR$/src/test/resources/META-INF/spring/mydocuments-aop-annotated-context.xml" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/spring/mydocuments-util-context.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/spring/mydocuments.groovy" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -93,12 +61,12 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="MyDocumentsAOPTest.java" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="MyDocumentsAOPTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/net/tt1/MyDocumentsAOPTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            <state relative-caret-position="1062">
+              <caret line="71" column="46" lean-forward="false" selection-start-line="71" selection-start-column="46" selection-end-line="71" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -106,33 +74,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Caching.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/tt1/annotated/aop/Caching.java">
+      <file leaf-file-name="AroundLoggingModule.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/tt1/aop/AroundLoggingModule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="17" column="38" lean-forward="false" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+            <state relative-caret-position="456">
+              <caret line="37" column="9" lean-forward="false" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="Caching.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/tt1/annotated/aop/Caching.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="56" column="21" lean-forward="false" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
+            <state relative-caret-position="174">
+              <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mydocuments-aop-annotated-context.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/META-INF/spring/mydocuments-aop-annotated-context.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CachingModule.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/tt1/aop/CachingModule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="744">
+              <caret line="38" column="36" lean-forward="false" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -561,10 +539,10 @@
         <option value="$PROJECT_DIR$/src/main/java/net/tt1/aop/CachingModule.java" />
         <option value="$PROJECT_DIR$/src/test/resources/META-INF/spring/mydocuments-aop-context.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/net/tt1/annotated/aop/Caching.java" />
         <option value="$PROJECT_DIR$/src/test/resources/META-INF/spring/mydocuments-aop-annotated-context.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/net/tt1/MyDocumentsAOPTest.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/net/tt1/annotated/aop/Caching.java" />
+        <option value="$PROJECT_DIR$/src/test/java/net/tt1/MyDocumentsAOPTest.java" />
       </list>
     </option>
   </component>
@@ -603,11 +581,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="20" />
-    <option name="y" value="35" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="236" />
+    <option name="y" value="636" />
     <option name="width" value="1684" />
-    <option name="height" value="808" />
+    <option name="height" value="518" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -625,7 +603,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -667,6 +648,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tt1" type="462c0819:PsiDirectoryNode" />
               <item name="annotated" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-basic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-basic" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tt1" type="462c0819:PsiDirectoryNode" />
+              <item name="annotated" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-basic" type="b2602c69:ProjectViewProjectNode" />
@@ -717,9 +708,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -752,7 +740,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MyDocumentsAOPTest">
+  <component name="RunManager" selected="JUnit.MyDocumentsAOPTest.testUsingSpringAOP">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -817,6 +805,31 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="MyDocumentsAOPTest.testUsingSpringAOP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="net.tt1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="spring-basic_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="net.tt1" />
+      <option name="MAIN_CLASS_NAME" value="net.tt1.MyDocumentsAOPTest" />
+      <option name="METHOD_NAME" value="testUsingSpringAOP" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="MyDocumentsAOPTest.testUsingSpringAOPCaching" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -856,31 +869,6 @@
       <option name="MAIN_CLASS_NAME" value="net.tt1.MyDocumentsMoreAnnotationsTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="MyDocumentsMoreAnnotationsTest.testUsingSpringTimedAnnotationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="net.tt1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="spring-basic_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="net.tt1" />
-      <option name="MAIN_CLASS_NAME" value="net.tt1.MyDocumentsMoreAnnotationsTest" />
-      <option name="METHOD_NAME" value="testUsingSpringTimedAnnotationTest" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -953,19 +941,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.MyDocumentsMoreAnnotationsTest.testUsingSpringTimedAnnotationTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.MyDocumentsMoreAnnotationsTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.MyDocumentsAOPTest" />
-      <item index="3" class="java.lang.String" itemvalue="Gradle.spring-basic [test]" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.MyDocumentsAOPTest.testUsingSpringAOPCaching" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.MyDocumentsMoreAnnotationsTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.MyDocumentsAOPTest" />
+      <item index="2" class="java.lang.String" itemvalue="Gradle.spring-basic [test]" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.MyDocumentsAOPTest.testUsingSpringAOPCaching" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.MyDocumentsAOPTest.testUsingSpringAOP" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MyDocumentsAOPTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MyDocumentsAOPTest.testUsingSpringAOPCaching" />
-        <item index="2" class="java.lang.String" itemvalue="Gradle.spring-basic [test]" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.MyDocumentsMoreAnnotationsTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.MyDocumentsMoreAnnotationsTest.testUsingSpringTimedAnnotationTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MyDocumentsAOPTest.testUsingSpringAOP" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MyDocumentsAOPTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MyDocumentsAOPTest.testUsingSpringAOPCaching" />
+        <item index="3" class="java.lang.String" itemvalue="Gradle.spring-basic [test]" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.MyDocumentsMoreAnnotationsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1019,9 +1007,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyDocumentsAOPTest - 2018.03.01 at 15h 00m 16s.xml">
-      <configuration name="MyDocumentsAOPTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MyDocumentsAOPTest - 2018.03.01 at 15h 00m 33s.xml">
       <configuration name="MyDocumentsAOPTest" configurationId="JUnit" />
     </history-entry>
@@ -1030,6 +1015,9 @@
     </history-entry>
     <history-entry file="MyDocumentsAOPTest - 2018.03.01 at 15h 25m 36s.xml">
       <configuration name="MyDocumentsAOPTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyDocumentsAOPTest_testUsingSpringAOP - 2018.03.02 at 09h 52m 27s.xml">
+      <configuration name="MyDocumentsAOPTest.testUsingSpringAOP" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MyDocumentsAOPTest_testUsingSpringAOPCaching - 2018.03.01 at 10h 54m 49s.xml">
       <configuration name="MyDocumentsAOPTest.testUsingSpringAOPCaching" configurationId="JUnit" />
@@ -1060,7 +1048,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="35" width="1684" height="808" extended-state="1" />
+    <frame x="236" y="636" width="1684" height="518" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1071,13 +1059,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3242424" sideWeight="0.5021381" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4151515" sideWeight="0.49053147" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4135135" sideWeight="0.49053147" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287879" sideWeight="0.49229783" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3242424" sideWeight="0.49786195" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28789732" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21882641" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294621" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24967907" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1089,6 +1076,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1208,23 +1196,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/data/dictionary_es.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="6" column="54" lean-forward="false" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/data/dictionary_en.properties">
       <provider editor-type-id="ResourceBundle">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/data/dictionary_en.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/net/tt1/MyDocumentsI18nTest.java">
@@ -1242,13 +1230,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/data/dictionary.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="7" column="51" lean-forward="false" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
         </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/tt1/data/DocumentDAO.java">
@@ -1422,16 +1410,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/tt1/aop/AroundLoggingModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="777">
-          <caret line="37" column="9" lean-forward="false" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/tt1/aop/ThrowsLoggingModule.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -1439,33 +1417,6 @@
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/tt1/aop/CachingModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="38" column="36" lean-forward="false" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#466#482#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/META-INF/spring/mydocuments-aop-annotated-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/META-INF/spring/mydocuments-aop-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1481,7 +1432,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
+        <state relative-caret-position="1344">
           <caret line="56" column="21" lean-forward="false" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
           <folding />
         </state>
@@ -1489,26 +1440,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
+        <state relative-caret-position="408">
           <caret line="17" column="38" lean-forward="false" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/tt1/annotated/aop/Caching.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/tt1/aop/AroundLoggingModule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        <state relative-caret-position="456">
+          <caret line="37" column="9" lean-forward="false" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/tt1/aop/CachingModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="38" column="36" lean-forward="false" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/META-INF/spring/mydocuments-aop-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/net/tt1/MyDocumentsAOPTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1062">
+          <caret line="71" column="46" lean-forward="false" selection-start-line="71" selection-start-column="46" selection-end-line="71" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/net/tt1/MyDocumentsAOPTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/META-INF/spring/mydocuments-aop-annotated-context.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="24">
+          <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/tt1/annotated/aop/Caching.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
