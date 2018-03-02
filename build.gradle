@@ -14,11 +14,13 @@ repositories {
 dependencies {
     compile 'org.codehaus.groovy:groovy-all:2.3.0'
     compile 'org.springframework:spring-context:4.0.5.RELEASE'
+    compile 'org.springframework:spring-jdbc:4.0.5.RELEASE'
     testCompile 'aspectj:aspectjrt:1.5.4'
     testCompile 'aspectj:aspectjweaver:1.5.4'
     testCompile 'org.springframework:spring-test:4.0.5.RELEASE'
     compile 'org.slf4j:slf4j-api:1.7.5'
     testCompile 'junit:junit:4.11'
+    runtime 'hsqldb:hsqldb:1.8.0.10'
  }
 
 test {

@@ -4,9 +4,25 @@ import java.util.Date;
 
 public class Document {
 
+    private String documentId;
     private String name;
     private Type type;
     private String location;
+    private String description;
+
+    @Override
+    public String toString() {
+        return "Document{" +
+                "documentId='" + documentId + '\'' +
+                ", name='" + name + '\'' +
+                ", type=" + type +
+                ", location='" + location + '\'' +
+                ", description='" + description + '\'' +
+                ", created=" + created +
+                ", modified=" + modified +
+                '}';
+    }
+
     private Date created;
     private Date modified;
 
@@ -50,4 +66,19 @@ public class Document {
         this.modified = modified;
     }
 
+    public String getDocumentId() {
+        return documentId;
+    }
+
+    public void setDocumentId(String documentId) {
+        this.documentId = documentId;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
 }

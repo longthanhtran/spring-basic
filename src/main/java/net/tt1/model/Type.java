@@ -2,6 +2,25 @@ package net.tt1.model;
 
 public class Type {
 
+    private String typeId;
+
+    @Override
+    public String toString() {
+        return "Type{" +
+                "typeId='" + typeId + '\'' +
+                ", name='" + name + '\'' +
+                ", desc='" + desc + '\'' +
+                ", extension='" + extension + '\'' +
+                '}';
+    }
+
+    public Type(String name, String extension) {
+        this.name = name;
+        this.extension = extension;
+    }
+
+    public Type() {}
+
     private String name;
     private String desc;
     private String extension;
@@ -30,4 +49,11 @@ public class Type {
         this.extension = extension;
     }
 
+    public String getTypeId() {
+        return typeId;
+    }
+
+    public void setTypeId(String typeId) {
+        this.typeId = typeId;
+    }
 }

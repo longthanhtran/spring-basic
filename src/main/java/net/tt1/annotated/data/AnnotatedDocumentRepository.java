@@ -12,11 +12,11 @@ import net.tt1.model.Type;
 @Repository("documentDAO")
 public class AnnotatedDocumentRepository implements DocumentDAO {
 
-    public Document[] getAll() {
+    public List<Document> getAll() {
         return storage();
     }
 
-    private Document[] storage() {
+    private List<Document> storage() {
         List<Document> result = new ArrayList<Document>();
         Type type = new Type();
         type.setName("PDF");
@@ -61,7 +61,7 @@ public class AnnotatedDocumentRepository implements DocumentDAO {
 
         result.add(document);
 
-        return result.toArray(new Document[result.size()]);
+        return result;
     }
 
 }
